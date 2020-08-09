@@ -52,7 +52,9 @@ public class ColourGenerator
                 Color gradientCol;
                 if (i < textureResolution)
                 {
+                    
                     gradientCol = settings.oceanColour.Evaluate(i / (textureResolution - 1f));
+                    
                 }
                 else
                 {
